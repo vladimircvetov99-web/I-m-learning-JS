@@ -241,13 +241,94 @@
 
 // var var1 = null;
 
-var person = null;
-if(confirm("Вы точно уверены?")) {
-    person = prompt("Введите ваше имя");
-    alert("Привет," + person);
-} else{
-    alert("Вы нажали на <<Отмена>>");
+// var person = null;
+// if(confirm("Вы точно уверены?")) {
+//     person = prompt("Введите ваше имя");
+//     alert("Привет," + person);
+// } else{
+//     alert("Вы нажали на <<Отмена>>");
+// }
+
+
+
+
+// 7. Функции в языке JS !!!
+
+
+
+
+// function info() {
+//     // console.log("HEllo"); Создание функции и её вызов
+//     console.log("!");
+// }
+
+// info();
+
+// function info(word) {
+//     console.log(word + "");
+//     console.log("!");
+// }
+
+// function summa(a, b) {
+//     var res = a + b;
+//     info(res);
+// }
+// summa(5, 7);
+
+
+// function summa(arr) {
+//     var sum = 0;
+
+//     for(var i = 0; i < arr.length; i++) 
+//        sum += arr[i]; 
+
+//     return sum;
+// }
+
+// var array = [6, 8, 1];
+// var array_2 = [6, 8, 1, 7];
+// var array_3 = [6, 8, 1, 90];
+
+// var res = summa(array);
+// res *= 2;
+// console.log("Результат:" + res);
+// // summa(array_2);
+// // summa(array_3);
+
+
+
+
+// Локальные и Глобальные переменные :
+
+
+// var num = 10; Глобальная переменная 
+
+// function info() {
+//     var num = 20;
+//     console.log(num); Локальная переменная, переменная внутри Функции
+// }
+
+// info();
+
+// console.log(num);
+
+
+
+// 8. События и обработчик событий в JS
+
+var counter = 0;
+
+function onClickButton(el) {
+
+    counter++;
+    el.innerHTML = "Вы нажали на кнопку: " + counter;
+
+    console.log(el.names);
 }
 
-
+function onInput(el) {
+    if(el.value == "Hello")
+        alert("И тебе привет");
+    console.log(el.value);
+}
 
