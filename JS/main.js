@@ -4,15 +4,7 @@
 // console.error("JavaScript говорит привет!");
 // console.warn("JavaScript говорит привет!");
 
-
-
-
-
 // 1.  Переменные создание!!!!!!
-
-
-
-
 
 // var num;
 // num = 5;
@@ -31,15 +23,7 @@
 // var num__1 = 5; число
 // var num__1 = "5"; строка
 
-
-
-
-
 // 2.  Математические действия!!!
-
-
-
-
 
 // var num_1 = 5;
 // var num_2 = 15;
@@ -63,18 +47,7 @@
 // console.log("Math:" + Math.min(4, 6, -8, 2, 0, 6)); выводит мин число
 // console.log("Math:" + Math.max(4, 6, 64, 2, 0, 6)); выводит максимальное число
 
-
-
-
-
-
 // 3. Условные операторы!!!!
-
-
-
-
-
-
 
 // var number = 15;
 // if(number == 5) {
@@ -87,28 +60,28 @@
 // }
 // var number = 15;
 // if(number != 5) {
-//     console.log("Ok"); переменная не равна значеннию 5 , поэтому значение верное 
+//     console.log("Ok"); переменная не равна значеннию 5 , поэтому значение верное
 // }
 
 // var number = 15;
 // if(number != 15) {
 //     console.log("Ok");
 // } else {
-//     console.log("Error"); Выводиться если значенение неверное 
+//     console.log("Error"); Выводиться если значенение неверное
 // }
 
 // var number = 15;
 
 // if(number == 5) {
 //     console.log("Ok");
-// } else if(number < 10) {  Не выполняется 
+// } else if(number < 10) {  Не выполняется
 //      console.log("Ok!");
-// }  else if(number == 7) { Не выполняется 
+// }  else if(number == 7) { Не выполняется
 //      console.log("7!");
 // }  else if(number >= 15) { Выполняеться потому что >= переменной
 //      console.log(">=15");
 // }else {
-//     console.log("Else"); Не выполняется 
+//     console.log("Else"); Не выполняется
 // }
 
 // var number = 15;
@@ -116,28 +89,27 @@
 
 // if(number == 15  && isHasHouse) {
 //     console.log("Ok"); Выполняется
-// } else if(number < 10) {  
-//      console.log("Ok!"); Невыполняется 
-// }  else if(number == 7) { 
+// } else if(number < 10) {
+//      console.log("Ok!"); Невыполняется
+// }  else if(number == 7) {
 //      console.log("7!"); Невыполняется
-// }  else if(number >= 15) { 
+// }  else if(number >= 15) {
 //      console.log(">=15"); Невыполняется
 // }else {
 //     console.log("Else"); Невыполняется
 // }
 
-
 // var stroka = 'word 23';
 
 // switch(stroka) {
-//     case "4": 
+//     case "4":
 //     console.log("Переменная со значением 4"); Невыполнится
 //     break;
 
-//     case "45": 
+//     case "45":
 //     console.log("Переменная со значением 45"); Невыполнится
 //     break;
-//     case "word": 
+//     case "word":
 //     console.log("Переменная со значением word"); Невыполнится
 //     break;
 //     default:
@@ -145,32 +117,20 @@
 //         break;
 // }
 
-
-
-
 // 4. Массивы Данных !!
-
-
-
-
 
 // var arr = [5, true, "stroka", 5.7, 0, -100]; Одномерные массивы!
 // arr[3] = 'word'
 // console.log(arr.length);
 
-
 // var matrix = [
 //     [4, 6, 8], ['stroka', 5.7], [0, -100] Многомерные массивы!
 // ];
 
-
 // matrix[1] [0] = 90;
 // console.log(matrix);
 
-
 // 5. Цыклы и операторы Циклов в JS
-
-
 
 // for(var i = 100; i > 5; i /= 2) {
 //     console.log(i);
@@ -187,13 +147,11 @@
 
 // }
 
-
 // var x = 0;
 // do {
 //    console.log(x);
 //    x++;
 // }  while(x < 10);
-
 
 // for(var i = 10; i <= 20; i+= 2){
 //     if(i > 15)
@@ -216,27 +174,20 @@
 // for(var i = 0; i < arr.length; i++) {
 //     arr[i] *= 2;
 
-
 //     console.log("Эллемент" + (i + 1) + ":" + arr[i]);
 // }
 
-
-
-
 // 6. Всплывающие окна (alert,prompt,confirm) !!!
-
-
-
 
 // alert("Какая хорошая погода!"); окно обычное
 
-// confirm("Вы сейчас дома?"); окно с 2 кнопками 
+// confirm("Вы сейчас дома?"); окно с 2 кнопками
 // var data = confirm("Вы сейчас дома?");
 // if (data) {
 //     alert("Вы молодец");
 // }
 
-// var data = prompt("Скажите сколько вам лет"); 
+// var data = prompt("Скажите сколько вам лет");
 // console.log(data);
 
 // var var1 = null;
@@ -249,13 +200,7 @@
 //     alert("Вы нажали на <<Отмена>>");
 // }
 
-
-
-
 // 7. Функции в языке JS !!!
-
-
-
 
 // function info() {
 //     // console.log("HEllo"); Создание функции и её вызов
@@ -275,12 +220,11 @@
 // }
 // summa(5, 7);
 
-
 // function summa(arr) {
 //     var sum = 0;
 
-//     for(var i = 0; i < arr.length; i++) 
-//        sum += arr[i]; 
+//     for(var i = 0; i < arr.length; i++)
+//        sum += arr[i];
 
 //     return sum;
 // }
@@ -295,13 +239,9 @@
 // // summa(array_2);
 // // summa(array_3);
 
-
-
-
 // Локальные и Глобальные переменные :
 
-
-// var num = 10; Глобальная переменная 
+// var num = 10; Глобальная переменная
 
 // function info() {
 //     var num = 20;
@@ -311,8 +251,6 @@
 // info();
 
 // console.log(num);
-
-
 
 // 8. События и обработчик событий в JS
 
@@ -325,7 +263,6 @@
 //     // el.style.background = "red";
 //     // el.style.color = "blue";
 
-
 //     el.style.cssText = "border-radius: 5px; border:0, font-size: 20px";
 
 //     console.log(el.names);
@@ -337,10 +274,7 @@
 //     console.log(el.value);
 // }
 
-
-
 // 9. Управление HTML и обработка форм при помощи JS
-
 
 // var text = document.getElementById('text');
 // text.title = "New text";
@@ -364,10 +298,7 @@
 //     console.log(spans[i].innerHTML);
 // }
 
-
 // document.getElementById('main-form').addEventListener("submit", checkForm);
-
-
 
 // function checkForm(event) {
 //     event.preventDefault();
@@ -381,7 +312,7 @@
 
 // var fail = "";
 
-// if(name == "" || pass == "" || state == "") 
+// if(name == "" || pass == "" || state == "")
 //     fail = "Заполните все поля";
 //     else if(name.length <= 1 || name.length > 50)
 //         fail = "Введите корректное имя";
@@ -396,10 +327,90 @@
 //      } else {
 //         alert("Все данные коректно заполнены");
 //         window.location = 'https://vladimircvetov99-web.github.io/2048-game/';
-        
+
 //      }
 
 // // console.log(state + "-" + pass + "-" + repass);
 
 // }
 
+// 10. Создание Таймеров и интервалов :
+
+// var counter = 0;
+
+// var id = setInterval(my_func, 1000);
+
+// function my_func() {
+//   counter++;
+//   console.log("Counter:" + counter);
+
+//   if (counter == 3) clearInterval(id);
+// }
+
+// setInterval(function () {
+//   counter++;
+//   console.log("Прошло секунд:" + counter);
+// }, 1000);
+
+// setTimeout(function () {
+//   console.log("Timer is working!");
+// }, 2000);
+
+// setTimeout(my_func, 2000);
+
+// function my_func() {
+//   console.log("Timer is working!");
+// }
+
+// 11.  Создание объектов. Встроенные функции !!
+
+// var date = new Date();
+
+// console.log(date.getFullYear());
+// console.log(date.getMonth() + 1);
+// console.log(date.getDate());
+// console.log(date.getHours());
+// console.log(date.getMinutes());
+// console.log(date.getSeconds());
+// console.log("Время:" + date.getHours() + ":" + date.getMinutes());
+// date.setHours(23);
+// date.setHours(23);
+// console.log("Время:" + date.getHours() + ":" + date.getMinutes());
+
+// var arr = [5, 7, 8, 9];
+// console.log(arr.join(", "));
+// console.log(arr.join("|||"));
+// var arr = [8, 90, 5, 7, 8, 9];
+// console.log(arr.sort());
+// var arr = [8, 90, 5, 7, 8, 9];
+// console.log(arr.reverse());
+// var arr = [8, 90, 5, 7, 8, 9];
+// console.log(arr.reverse().join(", "));
+// var arr = [8, 90, 5, 7, 8, 9];
+// var stroka = arr.reverse().join(", ");
+// console.log(stroka.split(", "));
+// console.log(arr.reverse().join(", "));
+
+//12 Сoздание классов и обьектов !!!!
+
+class Person {
+  constructor(name, age, happiness) {
+    this.name = name;
+    this.age = age;
+    this.happiness = happiness;
+  }
+
+  info() {
+    console.log("Человек" + this.name + ". Возраст:" + this.age);
+  }
+}
+
+var alex = new Person("Alex", 45, true);
+var bob = new Person("Bob", 25, false);
+
+alex.name = "alex2";
+alex.info();
+bob.info();
+
+// console.log(alex.name);
+// console.log(bob.name);
